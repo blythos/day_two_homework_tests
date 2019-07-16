@@ -92,3 +92,16 @@ def number_to_short_month_name(month)
     return "Incorrect input"
   end
 end
+
+def volume_of_cube(side)
+  return side**3
+end
+
+def volume_of_sphere(radius)
+  volume = 4 / 3 * 3.141 * radius**3
+  return volume
+end
+
+def fahrenheit_to_celsius(temp)
+  return (temp - 32) * 5 / 9
+end
